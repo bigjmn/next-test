@@ -1,15 +1,15 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 
-import Sidebar from './Sidebar'
+import Sidebar from './ListSidebar'
 import Topbar from "./Topbar";
 
 const Layout = ({ children }) => {
     return (
-        <Grid templateColumns="repeat(6, 1fr)" bg="gray.200">
+        <Grid templateColumns="repeat(6, 1fr)">
             <GridItem
                 as="aside"
                 colSpan={{ base: 6, md: 1 }}
-                bg="purple.800"
+                
                 minHeight={{ md: '100vh' }}
                 // p={{ base: "20px", lg: "30px" }}
                 >
